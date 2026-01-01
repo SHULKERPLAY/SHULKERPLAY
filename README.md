@@ -6,7 +6,7 @@
 :envelope_with_arrow: *You can contact me on [my Discord server](https://discord.gg/e2HcXrQ) or write to a.volkhin(at)lunarcreators(dot)ru*
 
 
-:books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, and JavaScript.
+:books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, and JavaScript (node.js).
 
 
 :blue_heart: Recently, I created a tool for the Russian-speaking community that allows users to learn about newly blocked Internet resources in Russia, - [Zapretyan](https://github.com/SHULKERPLAY/Zapretyan). Additionally, I developed a version of this tool using a WebHook, called [Zapretyan Lite](https://github.com/SHULKERPLAY/Zapretyan-Lite). This is a pre-built solution for creating a Discord bot, as well as a pre-configured setup for using the tool through a WebHook without the need to create a bot.
