@@ -1,0 +1,27 @@
+{
+  "version": "v1",
+  "routingItems": [
+    {
+      "remarks": "Всё через VPN",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all.json"
+    },
+    {
+      "remarks": "Всё, кроме RU сервисов через VPN",
+      "domainStrategy": "IPIfNonMatch",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all_except_ru.json"
+    },
+    {
+      "remarks": "Заблокированное (Список сообщества)",
+      "domainStrategy": "IPIfNonMatch",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_community.json"
+    }    {
+      "remarks": "Заблокированное (Наш список)",
+      "domainStrategy": "IPIfNonMatch",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_shulkerplay.json"
+    }    {
+      "remarks": "(Опасно) АБСОЛЮТНО всё заблокированное",
+      "domainStrategy": "IPIfNonMatch",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/everything_blocked.json"
+    }
+  ]
+}
