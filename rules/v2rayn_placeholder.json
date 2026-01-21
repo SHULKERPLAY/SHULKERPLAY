@@ -1,0 +1,84 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "\u0422\u043E\u0440\u0440\u0435\u043D\u0442 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "port": "",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0441\u0435\u0442\u0438 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "8.8.8.8",
+      "8.8.4.4",
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "enabled": true,
+    "remarks": "DNS \u0432 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:ru-blocked",
+      "geoip:ru-blocked-community",
+      "geoip:ddos-guard",
+      "geoip:cloudflare",
+      "geoip:cloudfront",
+      "geoip:facebook",
+      "geoip:telegram",
+      "geoip:twitter",
+      "geoip:fastly"
+    ],
+    "enabled": true,
+    "remarks": "IP \u0432 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ru-blocked-all",
+      "geosite:win-update",
+      "geosite:category-porn"
+    ],
+    "enabled": true,
+    "remarks": "\u0420\u0435\u0435\u0441\u0442\u0440 P\u041A\u041D \u0432 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "\u041E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  }
+]
