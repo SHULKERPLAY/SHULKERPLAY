@@ -1,4 +1,5 @@
 {
+  "version": "V4",
   "routingItems": [
     {
       "remarks": "Всё через VPN",
@@ -20,7 +21,7 @@
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_shulkerplay.json"
     },
     {
-      "remarks": "V4-绕过大陆(Whitelist)",
+      "remarks": "绕过大陆(Whitelist)",
       "domainStrategy": "IPOnDemand",
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/v2rayn_placeholder.json"
     }
