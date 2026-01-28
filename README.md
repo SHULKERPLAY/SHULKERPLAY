@@ -46,7 +46,7 @@
 
 Готово! Возможно после этого клиент перестанет работать. Перезапустите полностью его из трея (Как в п.№3 с главным правилом)
 
-![Список доменов](https://github.com/SHULKERPLAY/SHULKERPLAY/blob/v2rayn/rules.mp4)
+![](https://github.com/SHULKERPLAY/SHULKERPLAY/blob/v2rayn/rules.gif)
 
 ## Динамическое обновление блокировок
 
