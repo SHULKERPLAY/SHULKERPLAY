@@ -1,18 +1,67 @@
-## :crystal_ball: A small person who likes to write some Code stuff
+# Клиент и вопросы по нему
 
-:pushpin: Hi there! I working in the field of servicing Windows and Linux user systems and servers for the past three years. I work with hypervisors such as Proxmox, set up switches and routers in networks of varying complexities, and implemented various solutions for server hardware and systems, including reverse proxies.
+## Главное правило!
 
+**Если весь трафик падает или что-то касаемо приложения перестаёт работать, есть тирлист действий которые помогают**
 
-:envelope_with_arrow: *You can contact me on [my Discord server](https://discord.gg/e2HcXrQ) or write to a.volkhin(at)lunarcreators(dot)ru*
+1. Кнопка "Перезагрузка". Перезапускает ядра с текущим конфигом, поможет почти всегда
+2. Смена тоннеля. Блокировки не стоят на месте, поэтому у вас и есть несколько методов
+3. Перезапуск приложения. Жмём в трее "Выход", полностью закрывая приложение. После запускаем с нуля. Решает вообще всё.
+4. Перезапуск системы. Перезагрузка ПК решает 80% проблем с сетью в системе.
 
+## Использование
 
-:books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, and JavaScript (node.js).
+- Запускаем клиент всегда от имени администратора
+- "Режим VPN" всегда должен быть включён
+- "Системный прокси" должен стоять на "Установить системный прокси" 
+  - В случае возникновения проблем можно поставить "Очистить системный прокси", однако круг доступных сайтов может сузиться
 
+![Список доменов](https://github.com/SHULKERPLAY/SHULKERPLAY/blob/v2rayn/sett.png)
 
-:blue_heart: Recently, I created a tool for the Russian-speaking community that allows users to learn about newly blocked Internet resources in Russia, - [Zapretyan](https://github.com/SHULKERPLAY/Zapretyan). Additionally, I developed a version of this tool using a WebHook, called [Zapretyan Lite](https://github.com/SHULKERPLAY/Zapretyan-Lite). This is a pre-built solution for creating a Discord bot, as well as a pre-configured setup for using the tool through a WebHook without the need to create a bot.
+## Как добавить тоннель?
 
+Скопируйте ваш тоннель или подписку в буфер обмена и нажмите на программу Ctrl + V.
 
- :gear: Previously, I worked on a [tool](https://github.com/Lunar-Creators/FFpepeg) that allowed to quickly run various video processing tasks using FFmpeg, without needing to know the command line flags for Windows systems. While I have not yet completed this project, there were plans to create a user-friendly interface for the tool. However, this would require a complete rewrite of the code, and this project has been temporarily put on hold.
+Если у вас QR код, выведите клиент на основной монитор и выведите на него окно с вашим QR кодом. Когда QR будет виден на одном мониторе с клиентом жмём Ctrl + S. Или нажмите "Серверы" - Сканировать QR с изображения и загрузите картинку.
 
+## Как обновить подписку?
 
-:information_source: *Founder of the [Lunar Creators team](https://github.com/Lunar-Creators), which includes projects that can involve several people.*
+В клиенте нажать на кнопку "Группа подписки" - Обновить подписку без прокси (Или с прокси если ВПН нормально работает, разницы нет)
+
+### Списки маршрутизации
+
+РЕКОМЕНДУЕТСЯ: **Заблокированное (Наш список)**
+
+- Всё через VPN - говорит за себя
+- Всё, кроме RU - Всё идёт в впн кроме сайтов, доступных только внутри страны и сайтов с адресами, находящимися на теретории РФ
+- Заблокированное (Список сообщества) - Облегчённый список, пологающийся на сторонний сервис, собирающий список ресурсов от людей
+- Заблокированное (Наш) - Большой список правил, который включает большое количество динамических тегов и в дополнение личные хотелки нашей компашки
+- Китайская штука - Плейсхолдер чтобы приложение не добавляло автоматически правила для китая.
+  - Но с функционалом: Через впн идёт всё что смогли достать из реестра блокировок. Очень опасно для системных ресурсов, тк потребление ОЗУ очень сильно возрастает
+
+## Обновление списка доменов
+Списки берутся из этого репозитория и обновляются в несколько кликов
+
+Жмём "Настройки - Настройки маршрутизации", выделяем все существующие правила (Ctrl + A), и удаляем (Delete и после Enter). Далее нажимаем "Добавить расширенные правила", ждём, после того как они у нас снова появились жмём "подтвердить"
+
+Готово! Возможно после этого клиент перестанет работать. Перезапустите полностью его из трея (Как в п.№3 с главным правилом)
+
+![Список доменов](https://github.com/SHULKERPLAY/SHULKERPLAY/blob/v2rayn/rules.mp4)
+
+## Динамическое обновление блокировок
+
+В приложении используются списки которые обновляются из внешних источников. Эти списки можно легко обновлять в случае если заблокируют ещё что-то и оно попадёт в списки или банально устареют адреса.
+
+**В теории они обновляются автоматически раз в 5 часов.**
+
+Но если нужно обновить вручную жмём Помощь - Проверка обновлений. В списке включаем только GeoFiles и жмём "Проверить обновления". По успеху программа напишет. После этого может понадобиться перезапустить клиент, но если всё работает, то не нужно.
+
+![Обновление геофайла](https://github.com/SHULKERPLAY/SHULKERPLAY/blob/v2rayn/update.png)
+
+## Обновление и установка клиента
+
+Вытащите из архива папку в любое место куда вам удобно (Эти ресурсоёмкие ядра для быстрейшей перезагрузки на лету лучше размещать на SSD).
+
+Можете создать ярлык. Скопировать файл v2rayN.exe и на рабочем столе нажать кнопку "Вставить Ярлык"
+
+Для того чтобы сразу запускать его от имени администратора нажмите на ярлыке или на .exe "ПКМ - Свойства". Далее перейтите во вкладку "Совместимость". Поставьте галочку на графе "Запускать эту программу от имени администратора".
