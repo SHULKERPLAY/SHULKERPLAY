@@ -8,6 +8,7 @@
 
 :books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, and JavaScript (node.js).
 
+:orange_heart: The developer of Discord-Bot that helps with timestamps, randomize date and integers, check current time in different timezones and other cool things called [Timestamp 補佐](https://github.com/SHULKERPLAY/Timestamp-Hosa)! 11 Languages supported - [App Directory page](https://discord.com/discovery/applications/1449839745910964254)
 
 :blue_heart: Recently, I created a tool for the Russian-speaking community that allows users to learn about newly blocked Internet resources in Russia, - [Zapretyan](https://github.com/SHULKERPLAY/Zapretyan). Additionally, I developed a version of this tool using a WebHook, called [Zapretyan Lite](https://github.com/SHULKERPLAY/Zapretyan-Lite). This is a pre-built solution for creating a Discord bot, as well as a pre-configured setup for using the tool through a WebHook without the need to create a bot.
 
