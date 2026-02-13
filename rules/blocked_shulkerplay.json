@@ -37,6 +37,7 @@
     "domain": [
       "geosite:private",
       "full:drive.usercontent.google.com",
+      "full:drive.google.com",
       "full:hisami.lunarcreators.ru"
     ],
     "enabled": true,
@@ -641,7 +642,9 @@
       "domain:packetlosstest.com",
       "domain:browserleaks.com",
       "domain:ezgif.com",
-      "domain:shikimori.one"
+      "domain:shikimori.one",
+      "domain:nexus-cdn.com",
+      "full:steamcommunity.com"
     ],
     "enabled": true,
     "remarks": "\u0421\u0430\u0439\u0442\u044B \u0432 \u043F\u0440\u043E\u043A\u0441\u0438",
