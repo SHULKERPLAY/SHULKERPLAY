@@ -11,7 +11,7 @@
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all_except_ru.json"
     },
     {
-      "remarks": "Заблокированное (Список сообщества)",
+      "remarks": "Заблокированное (Упрощённый)",
       "domainStrategy": "IPOnDemand",
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_community.json"
     },
