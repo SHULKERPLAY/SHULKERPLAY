@@ -42,14 +42,6 @@
     "ruleType": 1
   },
   {
-    "port": "53",
-    "network": "udp",
-    "outboundTag": "proxy",
-    "enabled": true,
-    "remarks": "DNS \u0432 \u043F\u0440\u043E\u043A\u0441\u0438",
-    "ruleType": 1
-  },
-  {
     "port": "0-65535",
     "outboundTag": "proxy",
     "enabled": true,
