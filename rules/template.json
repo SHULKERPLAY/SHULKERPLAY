@@ -11,12 +11,12 @@
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all_except_ru.json"
     },
     {
-      "remarks": "Заблокированное (Упрощённый)",
+      "remarks": "Заблокированное (Быстрый)",
       "domainStrategy": "IPOnDemand",
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_community.json"
     },
     {    
-      "remarks": "Заблокированное (Наш список)",
+      "remarks": "Заблокированное (Точный)",
       "domainStrategy": "IPOnDemand",
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_shulkerplay.json"
     },
