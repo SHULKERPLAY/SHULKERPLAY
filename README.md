@@ -6,7 +6,7 @@
 :envelope_with_arrow: *You can contact me on [my Discord server](https://discord.gg/e2HcXrQ) or write to a.volkhin(at)lunarcreators(dot)ru*
 
 
-:books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, and JavaScript (node.js).
+:books: As a system administrator, I write various scripts that automate some actions or simply perform interesting tasks. I have experience with Python, Batch, Bash, PowerShell, JavaScript (node.js) and Go.
 
 :orange_heart: The developer of Discord-Bot that helps with timestamps, randomize date and integers, check current time in different timezones and other cool things called [Timestamp 補佐](https://github.com/SHULKERPLAY/Timestamp-Hosa)! 11 Languages supported - [App Directory page](https://discord.com/discovery/applications/1449839745910964254)
 
