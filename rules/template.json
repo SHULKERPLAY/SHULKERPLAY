@@ -11,14 +11,19 @@
       "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all_except_ru.json"
     },
     {
+      "remarks": "Заблокированное + Игры в VPN",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/all_game.json"
+    },
+    {
       "remarks": "Заблокированное (Быстрый)",
       "domainStrategy": "IPOnDemand",
-      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_community.json"
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_fast.json"
     },
     {    
       "remarks": "Заблокированное (Точный)",
       "domainStrategy": "IPOnDemand",
-      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_shulkerplay.json"
+      "url": "https://raw.githubusercontent.com/SHULKERPLAY/SHULKERPLAY/refs/heads/v2rayn/rules/blocked_advanced.json"
     },
     {
       "remarks": "绕过大陆(Whitelist)",
