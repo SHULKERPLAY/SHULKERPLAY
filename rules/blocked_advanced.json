@@ -26,7 +26,8 @@
       "geoip:private",
       "104.128.138.65",
       "8.8.8.8",
-      "1.0.0.1"
+      "1.0.0.1",
+      "104.18.0.0/20"
     ],
     "enabled": true,
     "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0441\u0435\u0442\u0438 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E",
@@ -39,7 +40,11 @@
       "geosite:private",
       "full:drive.usercontent.google.com",
       "full:drive.google.com",
-      "full:hisami.lunarcreators.ru"
+      "full:hisami.lunarcreators.ru",
+      "domain:steamcontent.com",
+      "domain:steampipe.akamaized.net",
+      "domain:data.ea.com",
+      "domain:cdn.ubi.com"
     ],
     "enabled": true,
     "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E",
@@ -2565,7 +2570,6 @@
       "223.27.176.0/23",
       "109.190.0.0/16",
       "151.127.0.0/16",
-      "2.16.0.0/13",
       "4.77.205.0/24",
       "8.28.5.0/24",
       "8.31.234.0/24",
