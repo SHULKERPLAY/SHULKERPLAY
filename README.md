@@ -12,6 +12,8 @@
 
 :rocket: The creator of another Discord-Bot called [Expify](https://github.com/SHULKERPLAY/discord-expify) bringing to community servers new extended expirience with advanced fair leveling system developed myself from scratch!
 
+:blue_heart: The creator of [Zapretyan-Go](https://github.com/SHULKERPLAY/Zapretyan-Go) - Crossplatform Local API core with custom plugin support able to periodicly download, merge, deduplicate, creating diffs and after processing collected data with plugins for lists of banned intrernet resources.
+
 :blue_heart: Also I created a tool for the Russian-speaking community that allows users to learn about newly blocked Internet resources in Russia, - [Zapretyan](https://github.com/SHULKERPLAY/Zapretyan). Additionally, I developed a version of this tool using a WebHook, called [Zapretyan Lite](https://github.com/SHULKERPLAY/Zapretyan-Lite). This is a pre-built solution for creating a Discord bot, as well as a pre-configured setup for using the tool through a WebHook without the need to create a bot.
 
 
